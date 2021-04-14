@@ -1,0 +1,131 @@
+.section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.h-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+.txt {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Styling */
+.navContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Hero Styling */
+.heroContainer {
+    text-align: center;
+}
+
+.heroText {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.display-4 {
+    margin-bottom: 40px;
+}
+
+.lead {
+    margin-bottom: 40px;
+}
+
+/* How It Works Styling */
+.how-it-works {
+    background-color: lightgray;
+}
+
+.flex-item {
+   margin: 16px;
+}
+
+/* Success Stories Styling*/
+.wide-image {
+    background-color: white;
+    height: 200px;
+}
+
+.success-stories {
+    background-color: lightgray;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: row;
+}
+.quote {
+    text-align: center;
+    justify-content: center;
+}
+.quote-block {
+    display: flex;
+    position: relative;
+    right: 80px;
+    top: 40px;
+}
+.open-quote {
+    justify-content: start;
+    position: relative;
+    bottom: 80px;
+}
+
+.close-quote {
+    justify-content: end;
+    position: relative;
+    top: 80px;
+    right: 20px;
+}
+
+#name {
+    font-size: 48px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
+
+/* Success Stories Styling*/
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
