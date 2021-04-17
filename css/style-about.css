@@ -1,0 +1,98 @@
+
+/* hero styling */
+.about-hero {
+    display: flex;
+    flex-direction: row;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 50px;
+}
+
+.about-content {
+    line-height: 2;
+}
+
+#par-1 {
+    margin-bottom: 40px;
+}
+
+#plant-left {
+    position: absolute;
+    top: 2em;
+    margin-top: 60px;
+}
+
+#plant-right {
+    position: absolute;
+    right: 0;
+    bottom: 18em;
+}
+#plant-bottom {
+    position: absolute;
+    right: 0;
+}
+.aboutSection {
+    background-color: #DFE3F1;
+    padding-bottom: 10em;
+}
+
+#about-header {
+    margin-bottom: 40px;
+}
+
+/* meet the team styling */
+.p-title {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.team-row {
+    margin-top: 80px;
+
+}
+
+#meet-team {
+    padding-bottom: 80px;
+}
+
+/* Board members and volunteers styling */
+
+.about-last {
+    background-color: #b9a25d;
+}
+
+.emp-btn {
+    text-align: center;
+}
+
+.div-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+
+.div-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn-1{
+    position: relative;
+    top: 30px;
+}
+
+.emp-ppl {
+    padding-bottom: 20px;
+}
+
+
+
+    
