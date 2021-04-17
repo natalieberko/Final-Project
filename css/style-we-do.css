@@ -6,3 +6,34 @@
 #s-title {
     padding-bottom: 80px;
 }
+
+/* cost and feed styling */
+
+#link {
+    color: black;
+}
+
+.feesSection {
+    background-color: #DFE3F1;
+}
+
+.feesContent {
+    max-width: 900px;
+}
+
+/* how it works styling */
+.circle {
+    background-color: #5d74b9;
+    border-radius: 50%;
+    color: white;
+    height: 79px;
+    width: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mispar {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
