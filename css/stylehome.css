@@ -38,6 +38,15 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
