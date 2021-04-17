@@ -1,26 +1,49 @@
 .section {
-    margin-top: 80px;
-    margin-bottom: 80px;
     padding-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 .h-center {
     text-align: center;
     margin-bottom: 40px;
 }
 p {
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight:300;
 }
 .txt {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300; 
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.btn {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 0%;
+    border: none;
+    width: 157px;
+}
+.btn-light {
+    background-color: white;
+    color: black;
+}
+.blue-btn {
+    background-color: #5d74b9;
+    color: white;
 }
 
 /* Nav Styling */
@@ -30,15 +53,41 @@ h1, h2 {
 }
 
 .nav-item {
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+.nav-link {
+    color: black;
+}
+ .mid-nav {
+     text-align: center;
+ }
+
  .nav-btn {
      margin-left: 16px;
  }
 
+
 /* Hero Styling */
+
+.hero-space{
+    background-image: url("../images/bluebonnet-sunrise-1-2\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: black;
+    text-align: center;
+  }
 .heroContainer {
     text-align: center;
     padding-top: 80px;
@@ -46,17 +95,21 @@ h1, h2 {
 }
 
 .heroText {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
 
 .display-4 {
     margin-bottom: 40px;
+    font-size: 70px;
 }
 
 .lead {
     margin-bottom: 40px;
 }
+
+
+  
 
 /* BLM Banner */
 
@@ -64,41 +117,42 @@ h1, h2 {
     background-color: #333333;
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .banner-txt {
-    font-size: 23px;
-    font-weight: 300;
+    font-size: 24px;
 }
 
 .banner-link {
     font-weight: 400;
     text-decoration: underline;
+    color: white;
 }
 
 
 /* How It Works Styling */
 .how-it-works {
-    background-color: lightgray;
+    background-color:#DFE3F1;
 }
 
 .flex-item {
    margin: 16px;
 }
 
-/* Success Stories Styling*/
-.wide-image {
-    background-color: white;
-    height: 200px;
+/* first clinic with professional volunteers*/
+.content {
+    text-align: center;
 }
 
+
+/* Success Stories Styling*/
 .carousel-inner {
     display: flex;
     flex-direction: row;
 }
 .success-stories {
-    background-color: lightgray;
+    background-color: #DFE3F1;
 }
 
 blockquote {
@@ -107,7 +161,17 @@ blockquote {
     line-height: 1.45;
     color: #383838;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    z-index: 10px;
+    margin-left: 20px;
+    
+}
+
+.quote-txt {
+    width: 717px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 80px;
 }
 
 blockquote:before {
@@ -117,9 +181,10 @@ blockquote:before {
     content: "\201C";
     font-size: 144px;
     position: absolute;
-    left: -40px;
     top: -80px;
-    color: #7a7a7a;
+    color: #5d74b9;
+    z-index: 10px;
+    margin-top: 70px;
 }
 
 blockquote:after {
@@ -129,8 +194,10 @@ blockquote:after {
     float:right;
     font-size:144px;
     line-height: 1;
-    right:20px;
+    bottom: 120px;
+    right: 80px;
     content: "\201D";
+    color: #5d74b9;
 }
 
 .successIMG {
@@ -139,47 +206,16 @@ blockquote:after {
 
 }
 
-
-/*.quote-div {
-    display: flex;
-    flex-direction: row;
-}
-.quote {
-    text-align: center;
-    justify-content: center;
-}
-.quote-block {
-    display: flex;
-    position: relative;
-    right: 80px;
-    top: 40px;
-    width: 790px;
-}
-.open-quote {
-    justify-content: start;
-    position: relative;
-    bottom: 80px;
-}
-
-.close-quote {
-    justify-content: end;
-    position: relative;
-    top: 80px;
-    right: 40px;
-}*/
-
-
 .person {
     display: flex;
     flex-direction: column;
     text-align: center;
     position: relative;
     margin-bottom: 40px;
-    left: -12em;
-    top: -4em;
 }
-.name {
-    text-align: center;
+
+.carousel-inner {
+    padding-bottom: 80px;
 }
 
 /* Success Stories Styling*/
@@ -189,6 +225,7 @@ ol.carousel-indicators li.active {
     border-radius: 50%;
     height: 10px;
     width: 10px;
+    background-color: #333333;
 }
 
 .sectionContainer {
@@ -201,11 +238,12 @@ ol.carousel-indicators li.active {
     font-size: 144px;
 }
 
+
 /* Become a volunteer styling */
 
 /* Help our cause styling */
 .donate {
-    background-color: lightgray;
+    background-color: #b9a25d;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -231,7 +269,7 @@ ol.carousel-indicators li.active {
 }
 
 .last-item {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .footer-list {
@@ -244,11 +282,42 @@ ol.carousel-indicators li.active {
 
 .crisis-banner {
     text-align: center;
-    background-color: #333333;
-    color: white;
+    background-color: white;
+    color: #5d74b9;
     margin: 0 auto;
 }
 
+.last-item, .footer-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer-link {
+    color: white;
+}
+
+#myFooter {
+    background-color: #5d74b9;
+}
+
+.left-menu, .right-menu {
+    align-self: flex-end;
+}
+
+.footer-txt, .last-item{
+    color: white;
+}
+
+.crisis-link {
+    font-weight: 400;
+    text-decoration: underline;
+    color: #5d74b9;
+}
+
+.social-media {
+    padding-bottom: 10px;
+}
 
 
 
