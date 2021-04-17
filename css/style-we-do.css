@@ -1,3 +1,6 @@
+.h-mid{
+    margin-bottom: 80px;
+}
 /*counseling services we offer styling*/
 .services-div {
     margin-top: 80px;
@@ -9,7 +12,12 @@
 
 /* cost and feed styling */
 
-#link {
+.privacy-link {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#privacy-link {
     color: black;
 }
 
@@ -22,6 +30,9 @@
 }
 
 /* how it works styling */
+.the-works-section{
+    background-color: #f6f6f6;
+}
 .circle {
     background-color: #5d74b9;
     border-radius: 50%;
@@ -31,9 +42,113 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -15px;
+    z-index: 10;
 }
 .mispar {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.card {
+    width: 310px;
+    height: 419px;
+    padding-top: 37px;
+    border-radius: 0%;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.sm-txt {
+    text-align: center;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: 18px;
+    line-height:1.8;
+}
+
+.h-step {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.step-hw {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+/* what to expect styling */
+.expCard {
+    width: 860px;
+    height: 516px;
+    padding-top: 37px;
+    border-radius: 0%;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+#expect-link {
+    text-decoration: underline;
+    font-weight: 700;
+    color: black;
+}
+
+.expectSection {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.exp-icn {
+    position: relative;
+    bottom: -15px;
+    z-index: 10;
+    margin-top: 100px;
+}
+
+.exp-content {
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+#last-info {
+    padding-bottom: 20px;
+}
+
+#plantUL {
+    position: absolute;
+    left:0;
+    top: 190em;
+}
+
+#plantUR {
+    position: absolute;
+    right: 0;
+    top: 187em;
+}
+
+#plantBL {
+    position: absolute;
+    left: 0;
+}
+
+#plantBR {
+    position:absolute;
+    right: 0;
+}
+
+/*ready to get started styling*/
+
+.startSection {
+    background-color: #b9a25d;
+
+}
+
+#start-btn{
+    width: fit-content;
 }
