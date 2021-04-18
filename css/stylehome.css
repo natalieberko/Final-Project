@@ -371,7 +371,8 @@ input {
 }
 
 .left-menu, .right-menu {
-    align-self: flex-end;
+    align-self: center;
+    padding-top: 40px;
 }
 
 .footer-txt, .last-item{
@@ -385,7 +386,7 @@ input {
 }
 
 .social-media {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
