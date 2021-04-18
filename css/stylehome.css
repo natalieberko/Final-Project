@@ -50,10 +50,11 @@ h4 {
 .btn {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     border-radius: 0%;
     border: none;
-    width: 157px;
+    padding-left: 41px;
+    padding-right: 41px;
 }
 .btn-light {
     background-color: white;
@@ -63,6 +64,12 @@ h4 {
     background-color: #5d74b9;
     color: white;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: white;
+    background-color: black;
+}
+
 
 /* Nav Styling */
 .navContainer {
@@ -277,8 +284,46 @@ ol.carousel-indicators li.active {
     text-align: center;
     max-width: 600px;
     margin: 35px auto;
-    margin-bottom: 80px;
+    padding: 45px;
+    background-color: #D5C79E;
 }
+.subscribeSection {
+    background-image: url(../images/hands\ in.png);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-right: 16px;
+}
+
+.form-control {
+    height: 42px;
+    width: 320px;
+}
+
+#sign-btn {
+    align-self: center;
+}
+/*.emailContain {
+    background: url("../images/emailBG.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }*/
 
 /* footer styling*/
 
