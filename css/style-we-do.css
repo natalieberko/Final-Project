@@ -1,7 +1,12 @@
 .h-mid{
     margin-bottom: 80px;
 }
+
+
 /*counseling services we offer styling*/
+.servicesSection {
+    padding-top: 200px;
+}
 .services-div {
     margin-top: 80px;
 
