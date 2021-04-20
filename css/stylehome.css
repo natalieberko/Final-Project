@@ -82,8 +82,8 @@ header {
 
 /* Nav Styling */
 .navContainer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .nav-item {
@@ -257,8 +257,8 @@ blockquote:after {
     float:right;
     font-size:144px;
     line-height: 1;
-    bottom: 80px;
-    right: 40px;
+    bottom: 110px;
+    right: 50px;
     content: "\201D";
     color: #5d74b9;
 }
