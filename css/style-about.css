@@ -21,14 +21,14 @@
 
 #plant-left {
     position: absolute;
-    top: 2em;
+    top: 1em;
     margin-top: 60px;
 }
 
 #plant-right {
     position: absolute;
     right: 0;
-    bottom: 21em;
+    bottom: 24em;
 }
 #plant-bottom {
     position: absolute;
