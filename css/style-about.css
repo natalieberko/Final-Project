@@ -36,12 +36,16 @@
 }
 .aboutSection {
     background-color: #DFE3F1;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     padding-top: 10em;
 }
 
 #about-header {
     margin-bottom: 40px;
+}
+
+#about-btn {
+    margin-top: 40px;
 }
 
 /* meet the team styling */
